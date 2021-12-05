@@ -9,8 +9,13 @@
     "@testing-library/jest-dom": "^5.15.1",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "chart.js": "^3.6.1",
+    "leaflet": "^1.7.1",
+    "numeral": "^2.0.6",
     "react": "^17.0.2",
+    "react-chartjs-2": "^4.0.0",
     "react-dom": "^17.0.2",
+    "react-leaflet": "^3.2.2",
     "react-scripts": "4.0.3",
     "web-vitals": "^1.1.2"
   },
@@ -26,18 +31,11 @@
       "react-app/jest"
     ]
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
-  },
+  "browserslist": [
+    ">0.2%",
+   "not dead",
+   "not op_mini all"
+ ],
   "devDependencies": {
     "autoprefixer": "^10.4.0",
     "postcss": "^8.4.4",

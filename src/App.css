@@ -5,15 +5,50 @@
 }
 
 body{
-  background-color: #f5f6fa;
+  background-color: #0d132c;
+}
+
+.app__dropdown {
+  background-color: white;
+  border-radius: 5px;
+}
+
+.app{
+  height: auto;
 }
 
 .app__left{
   flex: 0.9;
 }
 
+.underline {
+  margin-top: 5px;
+  background-color: blanchedalmond;
+  height: 7px;
+  border-radius: 30px;
+  width: 150px;
+}
+
 @media (max-width: 990px){
   .app{
     flex-direction: column;
   }
+}
+
+@media (max-width: 480px){
+  .app__info-boxes {
+    flex-direction: column;
+  }
+  .infoBox:not(:last-child){
+    margin-bottom: 15px;
+  }
+
+  .infoBox {
+    margin-right: 0;
+  }
+
+  .map {
+    margin-bottom: 20px;
+  }
+
 }

@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.info-flag img{
+    width: 100px;
+    border-radius: 5px;
+}
+
+.map {
+    /* border: 5px solid rgb(255, 255, 255); */
+    /* box-shadow: 5px 5px 5px rgb(223, 73, 73); */
+}
+
+.info-flag {
+    height: 100px;
+    width: 100%;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.info-name {
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(24, 24, 24);
+}
+
+.info-cases,
+.info-recovered,
+.info-deaths {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.info-country {
+    width: 150px;
+}
+
